@@ -30,13 +30,13 @@ public class CourseBaseInfoController {
     public PageResult<CourseBase> list(PageParams pageParams, @RequestBody(required=false) QueryCourseParamsDto queryCourseParamsDto) {
 
 
-        CourseBase courseBase = new CourseBase();
-        courseBase.setName("测试名称");
-        courseBase.setCreateDate(LocalDateTime.now());
-        List<CourseBase> courseBases = new ArrayList();
-        courseBases.add(courseBase);
-        PageResult pageResult = new PageResult<CourseBase>(courseBases,10,1,10);
-        return pageResult;
+//        CourseBase courseBase = new CourseBase();
+//        courseBase.setName("测试名称");
+//        courseBase.setCreateDate(LocalDateTime.now());
+//        List<CourseBase> courseBases = new ArrayList();
+//        courseBases.add(courseBase);
+//        PageResult pageResult = new PageResult<CourseBase>(courseBases,10,1,10);
+//        return pageResult;
 
     }
 }
